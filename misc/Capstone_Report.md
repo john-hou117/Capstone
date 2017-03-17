@@ -11,10 +11,9 @@ Problem Statement: Solve an image classification task, the CIFAR-10 dataset, usi
 
 Specific Goals:
     
-    1) Get a "working" understanding of both neural networks and convolutional neural
-    networks.
-    2) Obtain a respectable accuracy score on CIFAR-10 (see Benchmark section below for my
-    definition of "respectable") with a ConvNet of my own design.
+1) Get a "working" understanding of both neural networks and convolutional neural networks.
+
+2) Obtain a respectable accuracy score on CIFAR-10 (see Benchmark section below for my definition of "respectable") with a ConvNet of my own design.
 
 ### Solution Statement
 
@@ -36,7 +35,11 @@ This second metric is just as important to me, if not more so, than the first. I
 
 ### Benchmark
 
-Rodrigo Benenson's github: (http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#43494641522d3130) is an excellent resource that lists the results, and their respective white papers, of other people's efforts at various datasets. Of course, the CIFAR-10 is among one of these datasets, and the lowest score posted there is 75.86%. Given the short(er) time frame to learn about neural networks (mostly on my own, but not without some help from Joshua Cook and Mike Frantz), my benchmark was to at least match this lowest score.
+Rodrigo Benenson's github at is an excellent resource that lists the results, and their respective white papers, of other people's efforts at various datasets. Of course, the CIFAR-10 is among one of these datasets, and the lowest score posted there is 75.86%. Given the short(er) time frame to learn about neural networks (mostly on my own, but not without some help from Joshua Cook and Mike Frantz), my benchmark was to at least match this lowest score.
+
+Rodrigo Benenson's github:
+
+http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#43494641522d3130
 
 ### Results - Discussion
 
@@ -48,7 +51,7 @@ Moving on to the actual ConvNet, I obtained a validation accuracy of approximate
 
 2) Due to consistent problems (see Challenges section below), I was only able to successfully run 20 epochs. Even with this limited approach, my validation accuracy started at 22% for the 1st epoch and eventually reached 61% by the 20th epoch. Clearly, the ConvNet was learning, and it is clearly possible that it could've have learned more, given more epochs.
 
-3) I was not able to experiment with parameter tweaking, which may have made a difference in the results.
+3) I was not able to experiment with parameter tweaking, which may have made a difference on the results.
 
 ### Challenges
 
