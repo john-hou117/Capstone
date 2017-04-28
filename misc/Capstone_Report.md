@@ -35,7 +35,7 @@ This second metric is just as important to me, if not more so, than the first. I
 
 ### Benchmark
 
-Rodrigo Benenson's github at is an excellent resource that lists the results, and their respective white papers, of other people's efforts at various datasets. Of course, the CIFAR-10 is among one of these datasets, and the lowest score posted there is 75.86%. Given the short(er) time frame to learn about neural networks (mostly on my own, but not without some help from Joshua Cook and Mike Frantz), my benchmark was to at least match this lowest score.
+Rodrigo Benenson's github is an excellent resource that lists the results, and their respective white papers, of other people's efforts at various datasets. Of course, the CIFAR-10 is among one of these datasets, and the lowest score posted there is 75.86%. Given the short(er) time frame to learn about neural networks (mostly on my own, but not without some help from Joshua Cook and Mike Frantz), my benchmark was to at least match this lowest score.
 
 Rodrigo Benenson's github:
 
@@ -43,7 +43,7 @@ http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results
 
 ### Results - Discussion
 
-Joshua Cook suggested that before I make the deep dive into neural networks, I should use a simple sklearn logistic regression on the dataset. Though this was an inteeresting exercise, the logistic regerssion method scored an unimpressive 32% test accuracy (again, please see the "Part 2 - Image Classification Capstone - John Hou" notebook that I referenced in the EDA section above).
+Joshua Cook suggested that before I make the deep dive into neural networks, I should use a simple sklearn logistic regression on the dataset. Though this was an interesting exercise, the logistic regression method scored an unimpressive 32% test accuracy (again, please see the "Part 2 - Image Classification Capstone - John Hou" notebook that I referenced in the EDA section above).
 
 Moving on to the actual ConvNet, I obtained a validation accuracy of approximately 61%. Though this wasn't quite enough to match our benchmark of 75.86%, I am not completely dissatisfied with the results for several reasons:
 
